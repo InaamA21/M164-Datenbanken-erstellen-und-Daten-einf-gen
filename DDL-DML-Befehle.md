@@ -86,10 +86,10 @@ SELECT COUNT(*) FROM mitarbeiter;
 
 
 ### 7. Verwendung von Aggregatfunktionen (SUM, AVG, MAX, MIN)
--- Durchschnittliches Einkommen der Mitarbeiter
+* Durchschnittliches Einkommen der Mitarbeiter
 SELECT AVG(einkommen) FROM mitarbeiter;
 
--- Gesamtumsatz eines Kunden
+* Gesamtumsatz eines Kunden
 SELECT SUM(preis * menge) AS gesamtumsatz 
 FROM bestellpositionen 
 JOIN produkte ON bestellpositionen.produkt_id = produkte.id
