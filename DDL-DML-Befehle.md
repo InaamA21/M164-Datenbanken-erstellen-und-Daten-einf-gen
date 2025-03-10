@@ -3,6 +3,7 @@
 ## DDL (Data Definition Language)
 
 ### 1. Erstellen einer Tabelle mit mehreren Fremdschlüsseln
+```sql
 CREATE TABLE kunden (
     id INT AUTO_INCREMENT PRIMARY KEY,
     vorname VARCHAR(50) NOT NULL,
@@ -10,7 +11,7 @@ CREATE TABLE kunden (
     email VARCHAR(100),
     telefon VARCHAR(20)
 );
-
+```
 CREATE TABLE bestellungen (
     id INT AUTO_INCREMENT PRIMARY KEY,
     bestelldatum DATE NOT NULL,
