@@ -26,6 +26,10 @@ SELECT customer_id, SUM(order_total) FROM orders GROUP BY customer_id HAVING SUM
 ### Abfrage innerhalb einer anderen Abfrage. Tabellen die Bedingungen erfühllen abzufragen. 
 ### z.B. in den Klauseln: WHERE, FROM, HAVING und SELECT
 ### Unterabfragen: UPDATE, DELETE, INSERT
+
+## skalaren und nicht-skalaren Subqueries 
+### skalaren: Gibt einen einzelnen Wert zurück, wenn nichts gefunden wird kommt der Wert NULL zurück 
+### nicht-skalaren: Gibt 0, 1 oder mehrere Zeilen zurück, von denen jede 1 oder mehrere Spalten enthalten kann
 ### Skalere Unterabfrage: SELECT * FROM artikel WHERE einkaufspreis > (SELECT AVG(enkaufspreis) FROM artikel); 
 ### Nicht-skalare Unterabfrage: SELECT Name FROM Mitarbeiter WHERE AbteilungsID IN (SELECT AbteilungsID FROM Abteilung WHERE Standort = 'Zürich');
 
