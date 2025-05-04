@@ -1,110 +1,91 @@
-# Ablaufplan beim Modul 164 Datenbanken erstellen und Daten einfügen 
+# Lernplan Inaam: Relationale Datenbanken & SQL
 
-## 1. Tag – 18. Februar 2024  
-**KmpMatrx:** A1  
-### Thema, Auftrag, Übung:
-- Einführung und Auffrischen der Fachbegriffe und Konzepte:
-  - Normalisieren von Datenbanken: ERM (Entity-Relationship-Modell), ERD (Entity-Relationship-Diagramm) anhand des Beispiels „Tourenplaner“
-  - Recap DBMS (Datenbankmanagementsystem), MySQL/MariaDB installieren (mit Xampp, Docker, AWS Cloud, MySQL Workbench)
-  - Normalisierung: 1. Normalform (1NF), 2. Normalform (2NF), 3. Normalform (3NF)
+## 1. Tag - 18.02. (Dienstag)
+### Thema: Einführung in Datenbanken und SQL
+- **Ziel:** Auffrischen von Fachbegriffen (z.B. Tabellen, Relationen, Kardinalitäten), Normalisierung (1NF, 2NF, 3NF)
+- **Themen:** ERM und ERD am Beispiel "Tourenplaner"
+- **Praxis:** Installation von MySQL/MariaDB auf Xampp, Docker oder AWS
+- **Ziel:** Erstellen eines ERD (Entity-Relationship-Diagramms) für den Tourenplaner in 1NF, 2NF und 3NF.
 
-### Übung:
-- MySQL/MariaDB Installation
-- Normalisieren eines Beispiels (Tourenplaner) und Erstellen des entsprechenden ERD
+## 2. Tag - 25.02. (Dienstag)
+### Thema: Generalisierung, Spezialisierung und DDL
+- **Ziel:** Erweiterung des ERD mit Generalisierung/Spezialisierung (is_a-Beziehung)
+- **Themen:** Identifizierende vs. nicht-identifizierende Beziehungen, Einführung in DDL (Data Definition Language)
+- **Praxis:** Erstellen einer Datenbank und Tabellen mit MySQL Workbench (Forward Engineering)
+- **Ziel:** DDL-Befehle (CREATE TABLE, CHARSET) verwenden.
 
----
+## 3. Tag - 04.03. (Dienstag)
+### Thema: Datentypen und Mehrfachbeziehungen
+- **Ziel:** Einführung in SQL-Datentypen, Mehrfachbeziehungen (n:m-Beziehungen), Rekursion und Hierarchien (inkl. BOM-Problem)
+- **Praxis:** Erstellen von Tabellen mit verschiedenen Datentypen und Beziehungen (z.B. n:m-Beziehung)
+- **Ziel:** Arbeiten mit DML (SELECT I, SELECT II, INSERT) und einfache Datenabfragen.
 
-## 2. Tag – 25. Februar 2024  
-**KmpMatrx:** A1, B1  
-### Thema, Auftrag, Übung:
-- Erweiterung des ERD: Generalisierung / Spezialisierung (is_a-Beziehung)
-- Identifizierende und nicht-identifizierende Beziehungen
-- Einführung in DDL (Data Definition Language)
-  - Forward Engineering in MySQL Workbench → Erstellen von DDL-Skripten (CHARSET)
+## 4. Tag - 11.03. (Dienstag)
+### Thema: Referentielle Integrität und JOINs
+- **Ziel:** Arbeiten mit FK-Constraints (Fremdschlüssel-Constraints), Mengenlehre und Mengenoperationen (Union, Intersection, etc.)
+- **Praxis:** Erstellen und Testen von JOIN-Abfragen (INNER JOIN, LEFT JOIN, RIGHT JOIN)
+- **Ziel:** DML-Befehle mit JOINs üben, Aggregatfunktionen verwenden (COUNT, SUM).
 
-### Übung:
-- Erweiterung des ERD mit Generalisierungen und Spezialisierungen
-- Anwendung von DDL in MySQL Workbench zur Erstellung der Datenbankstruktur
-- Arbeiten mit CHARSET-Definitionen
+## 5. Tag - 18.03. (Dienstag)
+### Thema: Datenintegrität und Constraints
+- **Ziel:** FK-Constraint-Optionen und deren Anwendung
+- **Praxis:** Üben von SELECT ... WHERE ... Abfragen, mit speziellen Filterbedingungen (z.B. Subquery)
+- **Ziel:** Sicherstellen der referenziellen Integrität und Anwendung von WHERE- und HAVING-Klauseln.
 
----
+## 6. Tag - 25.03. (Dienstag)
+### Thema: Subqueries und Bulk Import
+- **Ziel:** Einführung in Subqueries (Subselects), Arbeiten mit `LOAD DATA INFILE` (Bulk Import von CSV-Dateien)
+- **Praxis:** Import von CSV-Daten und Anwendung von Subqueries in komplexeren Abfragen
+- **Ziel:** Subqueries erstellen und Daten aus CSV-Dateien in eine normalisierte Datenbank importieren.
 
-## 3. Tag – 04. März 2024  
-**KmpMatrx:** B2, B3  
-### Thema, Auftrag, Übung:
-- Arbeiten mit Datentypen in Datenbanken
-- Mehrfachbeziehungen und Rekursion in Datenbanken
-- Datenbasis bearbeiten mit DML (Data Manipulation Language)
-  - DML Einführung: SELECT I, SELECT II, INSERT
+## 7. Tag - 01.04. (Dienstag)
+### Thema: Backup und Normalisierung
+- **Ziel:** Backup und Wiederherstellung von Datenbanken (DUMP erstellen, Tools verwenden)
+- **Praxis:** Erstellen von Backups und Import von normalisierten Daten in eine Datenbank
+- **Ziel:** Daten sichern und in eine normalisierte DB importieren.
 
-### Übung:
-- Erstellen von Datentypen und deren Anwendung
-- Bearbeitung von Daten mit SELECT, INSERT und anderen DML-Befehlen
-- Komplexere JOINs und Bedingungen in SELECT-Abfragen
+## 8. Tag - 08.04. (Dienstag)
+### Thema: Praxisarbeit und Vorbereitung auf LB2
+- **Ziel:** Übung mit OpenData-Projekten
+- **Praxis:** CSV-Daten in einer normalisierten Datenbank strukturieren
+- **Ziel:** Arbeiten an OpenData-Projekten und Datenbanknormalisierung (bis 3. Normalform).
 
----
+## 9. Tag - 15.04. (Dienstag)
+### Thema: Vorbereitung auf LB2
+- **Ziel:** Vertiefung und Wiederholung der wichtigsten Konzepte
+- **Praxis:** Arbeiten mit den erstellten Datenbankprojekten (Prüfungssimulation)
+- **Ziel:** Fertigstellung der Praxisarbeit für LB2.
 
-## 4. Tag – 11. März 2024  
-**KmpMatrx:** B2, B3, C1, C3, D1  
-### Thema, Auftrag, Übung:
-- **LB1 (40%)**: Übung zur referenziellen Integrität und Fremdschlüssel-Constraints
-  - Anwendung von Mengenlehre in Datenbanken
-  - DML mit JOINs (SELECT JOIN I, SELECT JOIN II, SELECT JOIN III)
-
-### Übung:
-- Übungen zu referenziellen Integritäten und Fremdschlüssel-Constraints
-- Anwendung von SELECT JOIN und Abfragen mit mehreren Tabellen
-
----
-
-## 5. Tag – 18. März 2024  
-**KmpMatrx:** C1, C3, D1  
-### Thema, Auftrag, Übung:
-- Datenintegrität in relationalen Datenbanken
-- Einführung in DQL (Data Query Language) und DCL (Data Control Language)
-  - Anwendung von SELECT ... WHERE ... (*Warum Geht Herbert Oft Laufen?*)
-
-- Auftrag zur referenziellen Datenintegrität: I und II
-
-### Übung:
-- Übung zu Datenintegrität und DQL-Datenabfragen
-- Arbeiten mit Bedingungen in SELECT-Abfragen
+## 10. Tag - 06.05. (Dienstag)
+### Thema: Common Table Expressions & Stored Procedures
+- **Ziel:** Einführung in CTEs und deren Anwendung, Erstellung und Nutzung von Stored Procedures
+- **Praxis:** Arbeiten mit CTEs und Stored Procedures in einer komplexeren Abfrage
+- **Ziel:** Abgabe des Lernjournals/Dossiers und Abschluss der praktischen Übungen.
 
 ---
 
-## 6. Tag – 25. März 2024  
-**KmpMatrx:** C2, C3  
-### Thema, Auftrag, Übung:
-- Einführung in Subqueries und Bulkimport
-  - Sub-SELECT, LOAD DATA INFILE
-- Auftrag zu Subqueries und deren Anwendung
+## Zusammenfassung der Lernziele und Übungen pro Tag:
 
-### Übung:
-- Anwendung von Subqueries in SELECT-Anfragen
-- Import von großen Datenmengen mittels LOAD DATA INFILE
-
----
-
-## 7. Tag – 01. April 2024  
-**KmpMatrx:** C2  
-### Thema, Auftrag, Übung:
-- Backup von Datenbanken und Einbinden von normalisierten Daten
-  - Erstellen eines Dumps und Backup-Tools
-  - Import von Daten in eine normalisierte Datenbank
-
-### Übung:
-- Erstellen eines Dumps und Import von Daten
-- Arbeiten mit Backups und Wiederherstellung von Datenbanken
+| **Tag** | **Thema** | **Lernziel** | **Übung/Beispiel** |
+|---------|-----------|--------------|---------------------|
+| 18.02. | Einführung, Normalisierung, ERM | Fachbegriffe auffrischen, Normalformen verstehen | Erstellen eines ERD für den Tourenplaner (1NF, 2NF, 3NF) |
+| 25.02. | Generalisierung, DDL, Spezialisierung | Generalisierungsbeziehungen in ERD anwenden | Erstellen einer Datenbankstruktur mit MySQL Workbench |
+| 04.03. | Datentypen, Mehrfachbeziehungen | Datenbank mit verschiedenen Datentypen erstellen | SELECT, INSERT, Mehrfachbeziehungen testen |
+| 11.03. | Referentielle Integrität, JOINs | Arbeiten mit Fremdschlüssel-Constraints und JOINs | JOINs mit INNER, LEFT, RIGHT und FULL OUTER |
+| 18.03. | Datenintegrität, DQL, DCL | Verständnis der Datenintegrität und Anwendung von SELECT | Übung mit WHERE, HAVING, und Subqueries |
+| 25.03. | Subqueries, Bulk Import | Subqueries erstellen und Bulk Import üben | CSV-Daten importieren, Subquery-Abfragen |
+| 01.04. | Backup, Normalisierung | Erstellen und Wiederherstellen von Backups | Normalisierte Daten in die DB importieren |
+| 08.04. | Praxisarbeit, Vorbereitung LB2 | Übung und Wiederholung zur Vorbereitung | Arbeiten an OpenData-Projekten und CSV-Import |
+| 15.04. | Vorbereitung LB2 | Intensives Üben und Simulieren der praktischen Prüfung | Abschlussarbeit und Abschlussprüfung |
+| 06.05. | CTEs, Stored Procedures | Einführung in fortgeschrittene SQL-Techniken | Arbeiten mit CTEs und Stored Procedures |
 
 ---
 
-## 8. Tag – 08. April 2024  
-**KmpMatrx:** A1, B1, C2  
-### Thema, Auftrag, Übung:
-- Praxisarbeit zum Üben und Vorbereiten auf LB2
-  - CSV-Daten → DB-3.NF: Daten normalisieren und in einer Datenbank einfügen
-  - Arbeiten mit OpenData
+## Quizfragen zur Selbstkontrolle
 
-### Übung:
-- Importieren und Normalisieren von CSV-Daten in eine Datenbank
-- Nutzung von OpenData und deren Integration in die Datenbankstruktur
+1. Was sind die Hauptunterschiede zwischen den Normalformen 1NF, 2NF und 3NF?
+2. Erkläre den Unterschied zwischen einer Identifizierenden und einer Nicht-Identifizierenden Beziehung.
+3. Was ist der Zweck von **JOINs** in SQL?
+4. Was versteht man unter referenzieller Integrität?
+5. Wie kannst du einen Bulk-Import in eine MySQL-Datenbank durchführen?
+6. Was ist der Unterschied zwischen einem INNER JOIN und einem LEFT JOIN?
