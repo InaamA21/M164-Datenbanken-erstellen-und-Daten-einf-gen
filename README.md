@@ -1,4 +1,4 @@
-# Lernplan Inaam: Relationale Datenbanken & SQL
+# Lernjournal Inaam: Relationale Datenbanken & SQL
 
 ## 1. Tag - 18.02. (Dienstag)
 ### Thema: Einführung in Datenbanken und SQL
