@@ -1,4 +1,15 @@
 # SELECT Befehle 
+
+## Inhaltsverzeichnis
+- [SQL SELECT & Aggregatfunktionen](#sql-select--aggregatfunktionen)
+- [Subqueries & Joins](#subqueries--joins)
+- [LOAD DATA INFILE](#load-data-infile)
+- [Datensicherung von Datenbanken](#datensicherung-von-datenbanken)
+- [Aufgabenbearbeitung](#aufgabenbearbeitung)
+- [Checkpoint-Fragen](#checkpoint-fragen)
+- [Prüfungsinhalte M164 – Theorie & Praxis](#prüfungsinhalte-m164--theorie--praxis)
+
+## Themen 
 ## COUNT
 ### Gibt die Anzahl der Zeilen in einer Tabelle oder Gruppe zurück
 SELECT COUNT(*) FROM customers;
