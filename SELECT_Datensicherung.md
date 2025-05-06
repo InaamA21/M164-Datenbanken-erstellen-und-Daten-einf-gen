@@ -1,14 +1,14 @@
 # SELECT Befehle 
 
 ## Inhaltsverzeichnis
-- [SQL SELECT & Aggregatfunktionen](#sql-select-aggregatfunktionen)
-- [Subqueries & Joins](#subqueries-joins)
+- [SQL SELECT & Aggregatfunktionen](#sql-select--aggregatfunktionen)
+- [Subqueries & Joins](#subqueries--joins)
 - [LOAD DATA INFILE](#load-data-infile)
 - [Datensicherung von Datenbanken](#datensicherung-von-datenbanken)
 - [Aufgabenbearbeitung](#aufgabenbearbeitung)
 - [Prüfungsinhalte M164 – Theorie & Praxis](#prüfungsinhalte-m164--theorie--praxis)
 
-## Themen 
+# SQL SELECT & Aggregatfunktionen
 ## COUNT
 ### Gibt die Anzahl der Zeilen in einer Tabelle oder Gruppe zurück
 SELECT COUNT(*) FROM customers;
@@ -32,6 +32,7 @@ SELECT customer_id, SUM(order_total) FROM orders GROUP BY customer_id;
 ### Gibt nach der Gruppierung nu die an die die Anforderungen erfühlt
 SELECT customer_id, SUM(order_total) FROM orders GROUP BY customer_id HAVING SUM(order_total) > 500;
 
+# Subqueries & Joins
 ## SUBQUERY
 ### Abfrage innerhalb einer anderen Abfrage. Tabellen die Bedingungen erfühllen abzufragen. 
 ### z.B. in den Klauseln: WHERE, FROM, HAVING und SELECT
