@@ -1,5 +1,21 @@
 # M164 Stoff - Fragen Reflexion
 
+## Inhaltsverzeichnis
+- [Stufen der Wissenstreppe](#stufen-der-wissenstreppe)
+- [Anomalien in einer Datenbasis](#anomalien-in-einer-datenbasis)
+- [Redundante Daten](#redundante-daten)
+- [Datenstrukturierung bei der Erhebung und Ablage von Daten](#datenstrukturierung-bei-der-erhebung-und-ablage-von-daten)
+- [Grundlagen der Datenmodellierung](#grundlagen-der-datenmodellierung)
+- [Attributkonzept und Generalisierung/Spezialisierung](#attributkonzept-und-generalisierungspezialisierung)
+- [Identifying vs. Non-Identifying Relationships](#identifying-vs-non-identifying-relationships)
+- [Datenbanksysteme (DBS)](#datenbanksysteme-dbs)
+- [Wann sind einfache Dateien sinnvoll?](#wann-sind-einfache-dateien-sinnvoll)
+- [Zeichensatzkodierungen (CHARSET=)](#zeichensatzkodierungen-charset)
+- [Forward Engineering](#forward-engineering)
+- [Weitere Themen](#weitere-themen)
+- [SQL-Anwendungen & Befehle](#sql-anwendungen--befehle)
+
+
 ## Stufen der Wissenstreppe
 
 Die Wissenstreppe nach North beschreibt den Weg von Zeichen bis zur Kompetenz bzw. Wettbewerbsfähigkeit. Die Stufen sind:
