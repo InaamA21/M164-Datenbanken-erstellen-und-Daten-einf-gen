@@ -91,4 +91,4 @@
 6. Was ist der Unterschied zwischen einem INNER JOIN und einem LEFT JOIN?
 
 ## Themen Notizen 
-
+https://github.com/InaamA21/M164-Datenbanken-erstellen-und-Daten-einf-gen/blob/main/Grund_Informationen.md 
