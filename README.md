@@ -51,7 +51,7 @@
 - **Ziel:** Arbeiten an OpenData-Projekten und Datenbanknormalisierung (bis 3. Normalform).
 
 ## 9. Tag - 15.04. (Dienstag)
-### Thema: Vorbereitung auf LB2
+### Thema: LB2 Prüfung geschrieben 
 - **Ziel:** Vertiefung und Wiederholung der wichtigsten Konzepte
 - **Praxis:** Arbeiten mit den erstellten Datenbankprojekten (Prüfungssimulation)
 - **Ziel:** Fertigstellung der Praxisarbeit für LB2.
@@ -76,7 +76,7 @@
 | 25.03. | Subqueries, Bulk Import | Subqueries erstellen und Bulk Import üben | CSV-Daten importieren, Subquery-Abfragen |
 | 01.04. | Backup, Normalisierung | Erstellen und Wiederherstellen von Backups | Normalisierte Daten in die DB importieren |
 | 08.04. | Praxisarbeit, Vorbereitung LB2 | Übung und Wiederholung zur Vorbereitung | Arbeiten an OpenData-Projekten und CSV-Import |
-| 15.04. | Vorbereitung LB2 | Intensives Üben und Simulieren der praktischen Prüfung | Abschlussarbeit und Abschlussprüfung |
+| 15.04. | LB2 Prüfung | Intensives Üben und Simulieren der praktischen Prüfung | Pfrüfunggeschrieben |
 | 06.05. | CTEs, Stored Procedures | Einführung in fortgeschrittene SQL-Techniken | Arbeiten mit CTEs und Stored Procedures |
 
 ---
@@ -89,3 +89,6 @@
 4. Was versteht man unter referenzieller Integrität?
 5. Wie kannst du einen Bulk-Import in eine MySQL-Datenbank durchführen?
 6. Was ist der Unterschied zwischen einem INNER JOIN und einem LEFT JOIN?
+
+## Themen Notizen 
+
