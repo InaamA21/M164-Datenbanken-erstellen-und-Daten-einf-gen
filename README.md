@@ -76,7 +76,7 @@
 | 25.03. | Subqueries, Bulk Import | Subqueries erstellen und Bulk Import üben | CSV-Daten importieren, Subquery-Abfragen |
 | 01.04. | Backup, Normalisierung | Erstellen und Wiederherstellen von Backups | Normalisierte Daten in die DB importieren |
 | 08.04. | Praxisarbeit, Vorbereitung LB2 | Übung und Wiederholung zur Vorbereitung | Arbeiten an OpenData-Projekten und CSV-Import |
-| 15.04. | LB2 Prüfung | Intensives Üben und Simulieren der praktischen Prüfung | Pfrüfunggeschrieben |
+| 15.04. | LB2 Prüfung | Intensives Üben und Simulieren der praktischen Prüfung | Pfrüfungeschrieben |
 | 06.05. | CTEs, Stored Procedures | Einführung in fortgeschrittene SQL-Techniken | Arbeiten mit CTEs und Stored Procedures |
 
 ---
