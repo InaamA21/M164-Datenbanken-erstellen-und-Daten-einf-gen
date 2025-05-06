@@ -15,7 +15,7 @@
 - **Ziel:** DDL-Befehle (CREATE TABLE, CHARSET) verwenden.
 
 ## 3. Tag - 04.03. (Dienstag)
-### Thema: Datentypen und Mehrfachbeziehungen
+### Thema: Datentypen und Mehrfachbeziehungen/ LB1 Prüfung geschrieben 
 - **Ziel:** Einführung in SQL-Datentypen, Mehrfachbeziehungen (n:m-Beziehungen), Rekursion und Hierarchien (inkl. BOM-Problem)
 - **Praxis:** Erstellen von Tabellen mit verschiedenen Datentypen und Beziehungen (z.B. n:m-Beziehung)
 - **Ziel:** Arbeiten mit DML (SELECT I, SELECT II, INSERT) und einfache Datenabfragen.
@@ -91,4 +91,5 @@
 6. Was ist der Unterschied zwischen einem INNER JOIN und einem LEFT JOIN?
 
 ## Themen Notizen 
-https://github.com/InaamA21/M164-Datenbanken-erstellen-und-Daten-einf-gen/blob/main/Grund_Informationen.md 
+![Notizen zur LB1](https://github.com/InaamA21/M164-Datenbanken-erstellen-und-Daten-einf-gen/blob/main/Grund_Informationen.md) 
+![Notizen zur LB2]()
