@@ -92,4 +92,4 @@
 
 ## Themen Notizen 
 ![Notizen zur LB1](https://github.com/InaamA21/M164-Datenbanken-erstellen-und-Daten-einf-gen/blob/main/Grund_Informationen.md) 
-![Notizen zur LB2]()
+![Notizen zur LB2](https://github.com/InaamA21/M164-Datenbanken-erstellen-und-Daten-einf-gen/blob/main/SELECT_Datensicherung.md)
